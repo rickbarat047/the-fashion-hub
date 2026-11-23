@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <linearGradient id="bgGrad3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FBF9F6" />
+      <stop offset="100%" stop-color="#ECE3D8" />
+    </linearGradient>
+    <pattern id="floralPrint" width="50" height="50" patternUnits="userSpaceOnUse">
+      <circle cx="25" cy="25" r="4" fill="#B45309" opacity="0.8"/>
+      <!-- Petals -->
+      <circle cx="25" cy="18" r="4" fill="#DB2777" opacity="0.6"/>
+      <circle cx="25" cy="32" r="4" fill="#DB2777" opacity="0.6"/>
+      <circle cx="18" cy="25" r="4" fill="#DB2777" opacity="0.6"/>
+      <circle cx="32" cy="25" r="4" fill="#DB2777" opacity="0.6"/>
+      <!-- Leaves -->
+      <path d="M 12 12 Q 18 10 20 18" stroke="#059669" stroke-width="1.5" fill="none" opacity="0.7"/>
+      <path d="M 38 38 Q 32 40 30 32" stroke="#059669" stroke-width="1.5" fill="none" opacity="0.7"/>
+      <!-- Mini buds -->
+      <circle cx="5" cy="45" r="2" fill="#E11D48" opacity="0.5"/>
+      <circle cx="45" cy="5" r="2" fill="#E11D48" opacity="0.5"/>
+    </pattern>
+    <filter id="softShadow3" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#1C1917" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="800" height="1000" fill="url(#bgGrad3)"/>
+  <rect x="40" y="40" width="720" height="920" fill="none" stroke="#D8CCC0" stroke-width="1"/>
+  <rect x="48" y="48" width="704" height="904" fill="none" stroke="#EAE2D8" stroke-width="0.5"/>
+
+  <!-- Short Kurti Garment Silhouette -->
+  <g filter="url(#softShadow3)" transform="translate(110, 140)">
+    <!-- Base Kurti Body: Hip Length / Short Cut -->
+    <path d="M 190 50 
+             Q 290 35 390 50 
+             L 480 150 
+             L 440 200 
+             L 390 170 
+             L 420 530 
+             Q 290 545 160 530 
+             L 190 170 
+             L 140 200 
+             L 100 150 Z" 
+          fill="#FFFDFB" stroke="#D8CCC0" stroke-width="1"/>
+
+    <!-- Floral Pattern Fill -->
+    <path d="M 190 50 
+             Q 290 35 390 50 
+             L 480 150 
+             L 440 200 
+             L 390 170 
+             L 420 530 
+             Q 290 545 160 530 
+             L 190 170 
+             L 140 200 
+             L 100 150 Z" 
+          fill="url(#floralPrint)"/>
+
+    <!-- Mandarin / Notch Collar Neckline -->
+    <path d="M 250 48 Q 290 85 330 48" fill="none" stroke="#DB2777" stroke-width="2.5"/>
+    <path d="M 290 85 L 290 200" stroke="#DB2777" stroke-width="2"/>
+    <circle cx="290" cy="120" r="3" fill="#B45309"/>
+    <circle cx="290" cy="150" r="3" fill="#B45309"/>
+    <circle cx="290" cy="180" r="3" fill="#B45309"/>
+
+    <!-- Hemline Lace / Contrast Border -->
+    <path d="M 160 525 Q 290 540 420 525" stroke="#DB2777" stroke-width="4" fill="none"/>
+  </g>
+
+  <!-- Editorial Metadata Plate -->
+  <g transform="translate(400, 870)" text-anchor="middle">
+    <text font-family="'Plus Jakarta Sans', sans-serif" font-size="11" letter-spacing="4" fill="#6B6258">CASUAL &amp; OFFICE EDIT · NEW</text>
+    <text font-family="'Cormorant Garamond', Georgia, serif" font-size="24" font-weight="600" fill="#1C1917" y="30">Floral Printed Short Kurti</text>
+    <text font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#DB2777" y="52">Soft Ivory &amp; Botanical Pastels · Hip Length · Notch Neck</text>
+  </g>
+</svg>

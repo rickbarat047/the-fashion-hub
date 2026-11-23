@@ -1,0 +1,6 @@
+{
+  "name": "The Fashion Hub — Curated Women's Fashion",
+  "description": "A curated edit of effortlessly stylish women's fashion and ethnic wear, handpicked by creators with direct affiliate links to Meesho.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

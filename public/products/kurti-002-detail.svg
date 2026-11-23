@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <linearGradient id="detailBg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF7F5" />
+      <stop offset="100%" stop-color="#EDE5DE" />
+    </linearGradient>
+    <linearGradient id="crimsonFabric" x1="0%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#A51D1D" />
+      <stop offset="50%" stop-color="#841414" />
+      <stop offset="100%" stop-color="#580E0E" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#detailBg2)"/>
+  <rect x="40" y="40" width="720" height="920" fill="none" stroke="#D8CCC0" stroke-width="1"/>
+
+  <!-- Macro Neckline & Button Texture -->
+  <rect x="100" y="120" width="600" height="650" rx="4" fill="url(#crimsonFabric)"/>
+
+  <!-- Round Neck Curve -->
+  <path d="M 180 120 Q 400 320 620 120" fill="none" stroke="#C59B27" stroke-width="12"/>
+  <path d="M 180 120 Q 400 320 620 120" fill="none" stroke="#FAF8F5" stroke-width="2"/>
+
+  <!-- Ornate Buttons -->
+  <g transform="translate(400, 320)">
+    <line x1="0" y1="0" x2="0" y2="400" stroke="#C59B27" stroke-width="6"/>
+    <!-- Button 1 -->
+    <circle cx="0" cy="60" r="14" fill="#C59B27" stroke="#FAF8F5" stroke-width="2"/>
+    <circle cx="0" cy="60" r="8" fill="#841414"/>
+    <!-- Button 2 -->
+    <circle cx="0" cy="140" r="14" fill="#C59B27" stroke="#FAF8F5" stroke-width="2"/>
+    <circle cx="0" cy="140" r="8" fill="#841414"/>
+    <!-- Button 3 -->
+    <circle cx="0" cy="220" r="14" fill="#C59B27" stroke="#FAF8F5" stroke-width="2"/>
+    <circle cx="0" cy="220" r="8" fill="#841414"/>
+    <!-- Button 4 -->
+    <circle cx="0" cy="300" r="14" fill="#C59B27" stroke="#FAF8F5" stroke-width="2"/>
+    <circle cx="0" cy="300" r="8" fill="#841414"/>
+  </g>
+
+  <g transform="translate(400, 850)" text-anchor="middle">
+    <text font-family="'Plus Jakarta Sans', sans-serif" font-size="11" letter-spacing="4" fill="#6B6258">DETAILS & CRAFTSMANSHIP</text>
+    <text font-family="'Cormorant Garamond', Georgia, serif" font-size="24" font-weight="600" fill="#1C1917" y="30">Refined Cotton-Blend Drape</text>
+    <text font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#841414" y="52">Hand-Finished Gold Placket Buttons with Elegant Round Neck</text>
+  </g>
+</svg>

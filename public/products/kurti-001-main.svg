@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F7F4F0" />
+      <stop offset="100%" stop-color="#EBE4DC" />
+    </linearGradient>
+    <pattern id="ajrakhPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 40 20 L 20 40 L 0 20 Z" fill="none" stroke="#2B3A42" stroke-width="1.2" opacity="0.65"/>
+      <circle cx="20" cy="20" r="4" fill="#8B3A2B" opacity="0.7"/>
+      <circle cx="0" cy="0" r="3" fill="#C59B27" opacity="0.6"/>
+      <circle cx="40" cy="0" r="3" fill="#C59B27" opacity="0.6"/>
+      <circle cx="0" cy="40" r="3" fill="#C59B27" opacity="0.6"/>
+      <circle cx="40" cy="40" r="3" fill="#C59B27" opacity="0.6"/>
+      <path d="M 20 10 L 30 20 L 20 30 L 10 20 Z" fill="none" stroke="#C59B27" stroke-width="0.8" opacity="0.5"/>
+    </pattern>
+    <pattern id="borderPattern" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect width="20" height="20" fill="#2B3A42"/>
+      <path d="M0 10 L10 0 L20 10 L10 20 Z" fill="#8B3A2B"/>
+      <circle cx="10" cy="10" r="2" fill="#EBE4DC"/>
+    </pattern>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#1C1917" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="800" height="1000" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle Architectural Frame -->
+  <rect x="40" y="40" width="720" height="920" fill="none" stroke="#D8CCC0" stroke-width="1"/>
+  <rect x="48" y="48" width="704" height="904" fill="none" stroke="#EAE2D8" stroke-width="0.5"/>
+
+  <!-- Garment Silhouette Group -->
+  <g filter="url(#softShadow)" transform="translate(100, 120)">
+    <!-- Base Kurti Body -->
+    <path d="M 200 60 
+             Q 300 30 400 60 
+             L 520 180 
+             L 470 240 
+             L 410 200 
+             L 440 680 
+             Q 300 700 160 680 
+             L 190 200 
+             L 130 240 
+             L 80 180 Z" 
+          fill="#FAF8F5" stroke="#2B3A42" stroke-width="1.5" />
+    
+    <!-- Ajrakh Print Texture Overlay -->
+    <path d="M 200 60 
+             Q 300 30 400 60 
+             L 520 180 
+             L 470 240 
+             L 410 200 
+             L 440 680 
+             Q 300 700 160 680 
+             L 190 200 
+             L 130 240 
+             L 80 180 Z" 
+          fill="url(#ajrakhPattern)" />
+
+    <!-- Angrakha Surplice Overlapping Flap (Left to Right) -->
+    <path d="M 240 60 
+             Q 330 180 230 360 
+             L 240 675 
+             Q 290 685 360 683 
+             L 370 260 
+             L 350 60 Z" 
+          fill="#8B3A2B" opacity="0.9" stroke="#C59B27" stroke-width="1"/>
+
+    <!-- Gold & Deep Indigo Border along overlap -->
+    <path d="M 240 60 Q 330 180 230 360 L 240 675" 
+          fill="none" stroke="#C59B27" stroke-width="5" stroke-linecap="round"/>
+    <path d="M 240 60 Q 330 180 230 360 L 240 675" 
+          fill="none" stroke="#2B3A42" stroke-width="2" stroke-dasharray="3 3"/>
+
+    <!-- Tie & Tassel Details (Dori) -->
+    <path d="M 255 240 Q 220 270 230 320" fill="none" stroke="#C59B27" stroke-width="2"/>
+    <circle cx="230" cy="325" r="5" fill="#8B3A2B" stroke="#C59B27" stroke-width="1"/>
+    <circle cx="230" cy="335" r="3" fill="#2B3A42"/>
+
+    <path d="M 255 240 Q 280 280 270 340" fill="none" stroke="#C59B27" stroke-width="2"/>
+    <circle cx="270" cy="345" r="5" fill="#8B3A2B" stroke="#C59B27" stroke-width="1"/>
+
+    <!-- Neckline cut -->
+    <path d="M 260 60 Q 300 120 340 60" fill="none" stroke="#8B3A2B" stroke-width="2"/>
+  </g>
+
+  <!-- Editorial Metadata Plate -->
+  <g transform="translate(400, 870)" text-anchor="middle">
+    <text font-family="'Plus Jakarta Sans', sans-serif" font-size="11" letter-spacing="4" fill="#6B6258" text-anchor="middle">PURE COTTON · AJRAKH PRINT</text>
+    <text font-family="'Cormorant Garamond', Georgia, serif" font-size="24" font-weight="600" fill="#1C1917" y="30" letter-spacing="0.5">Angrakha Silhouette</text>
+    <text font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#8B3A2B" y="52">Calf Length · Surplice Neck · 3/4 Sleeves</text>
+  </g>
+</svg>
