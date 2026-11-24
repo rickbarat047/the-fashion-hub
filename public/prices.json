@@ -3,266 +3,273 @@
     "price": 198,
     "priceLabel": "₹198",
     "rating": 3.9,
-    "ratingCount": 10768,
-    "fetchedAt": "2026-11-23T05:20:03.394Z"
+    "ratingCount": 10769,
+    "fetchedAt": "2026-11-24T03:45:31.351Z"
   },
   "423040500": {
     "price": 544,
     "priceLabel": "₹544",
     "rating": 4.2,
-    "ratingCount": 5092,
-    "fetchedAt": "2026-11-23T05:20:03.613Z"
+    "ratingCount": 5098,
+    "fetchedAt": "2026-11-24T03:45:31.582Z"
   },
   "428512663": {
     "price": 289,
     "priceLabel": "₹289",
     "rating": 4.3,
-    "ratingCount": 1279,
-    "fetchedAt": "2026-11-23T05:20:03.794Z"
+    "ratingCount": 1280,
+    "fetchedAt": "2026-11-24T03:45:31.772Z"
   },
   "435899553": {
     "price": 277,
     "priceLabel": "₹277",
     "rating": 4,
-    "ratingCount": 19993,
-    "fetchedAt": "2026-11-23T05:20:04.068Z"
+    "ratingCount": 20038,
+    "fetchedAt": "2026-11-24T03:45:31.946Z"
   },
   "447557329": {
     "price": 300,
     "priceLabel": "₹300",
     "rating": 4.2,
-    "ratingCount": 1042,
-    "fetchedAt": "2026-11-23T05:20:04.318Z"
+    "ratingCount": 1046,
+    "fetchedAt": "2026-11-24T03:45:32.141Z"
   },
   "480179648": {
     "price": 281,
     "priceLabel": "₹281",
-    "rating": 4,
-    "ratingCount": 27028,
-    "fetchedAt": "2026-11-23T05:20:04.524Z"
+    "rating": 4.1,
+    "ratingCount": 27044,
+    "fetchedAt": "2026-11-24T03:45:32.319Z"
   },
   "481244020": {
     "price": 458,
     "priceLabel": "₹458",
     "rating": 4.1,
-    "ratingCount": 2840,
-    "fetchedAt": "2026-11-23T05:20:04.731Z"
+    "ratingCount": 2852,
+    "fetchedAt": "2026-11-24T03:45:32.511Z"
   },
   "495407917": {
     "price": 559,
     "priceLabel": "₹559",
     "rating": 4.1,
-    "ratingCount": 10150,
-    "fetchedAt": "2026-11-23T05:20:04.983Z"
+    "ratingCount": 10159,
+    "fetchedAt": "2026-11-24T03:45:32.694Z"
   },
   "499279857": {
     "price": 291,
     "priceLabel": "₹291",
     "rating": 3.9,
-    "ratingCount": 8459,
-    "fetchedAt": "2026-11-23T05:20:05.200Z"
+    "ratingCount": 8461,
+    "fetchedAt": "2026-11-24T03:45:32.879Z"
   },
   "519415423": {
     "price": 415,
     "priceLabel": "₹415",
     "rating": 4.1,
     "ratingCount": 795,
-    "fetchedAt": "2026-11-23T05:20:05.397Z"
+    "fetchedAt": "2026-11-24T03:45:33.057Z"
   },
   "530603958": {
     "price": 511,
     "priceLabel": "₹511",
     "rating": 4.2,
-    "ratingCount": 23052,
-    "fetchedAt": "2026-11-23T05:20:05.609Z"
+    "ratingCount": 23085,
+    "fetchedAt": "2026-11-24T03:45:33.246Z"
   },
   "539819444": {
     "price": 356,
     "priceLabel": "₹356",
     "rating": 4.3,
     "ratingCount": 2408,
-    "fetchedAt": "2026-11-23T05:20:05.844Z"
+    "fetchedAt": "2026-11-24T03:45:33.439Z"
   },
   "646503124": {
     "price": 237,
     "priceLabel": "₹237",
     "rating": 4.1,
-    "ratingCount": 24755,
-    "fetchedAt": "2026-11-23T05:20:06.034Z"
+    "ratingCount": 24777,
+    "fetchedAt": "2026-11-24T03:45:33.640Z"
   },
   "687058617": {
     "price": 403,
     "priceLabel": "₹403",
     "rating": 4.1,
-    "ratingCount": 4840,
-    "fetchedAt": "2026-11-23T05:20:06.277Z"
+    "ratingCount": 4846,
+    "fetchedAt": "2026-11-24T03:45:33.857Z"
   },
   "705875792": {
     "price": 283,
     "priceLabel": "₹283",
     "rating": 4.1,
     "ratingCount": 563,
-    "fetchedAt": "2026-11-23T05:20:06.445Z"
+    "fetchedAt": "2026-11-24T03:45:34.029Z"
   },
   "757544728": {
     "price": 763,
     "priceLabel": "₹763",
     "rating": 3.9,
-    "ratingCount": 1436,
-    "fetchedAt": "2026-11-23T05:20:06.643Z"
+    "ratingCount": 1440,
+    "fetchedAt": "2026-11-24T03:45:34.220Z"
   },
   "889479467": {
     "price": 408,
     "priceLabel": "₹408",
     "rating": 4.3,
-    "ratingCount": 1072,
-    "fetchedAt": "2026-11-23T05:20:06.863Z"
+    "ratingCount": 1071,
+    "fetchedAt": "2026-11-24T03:45:34.412Z"
   },
   "964489194": {
     "price": 404,
     "priceLabel": "₹404",
     "rating": 4.1,
-    "ratingCount": 1307,
-    "fetchedAt": "2026-11-23T05:20:07.077Z"
+    "ratingCount": 1316,
+    "fetchedAt": "2026-11-24T03:45:34.601Z"
   },
   "973837279": {
     "price": 487,
     "priceLabel": "₹487",
     "rating": 4.1,
-    "ratingCount": 572,
-    "fetchedAt": "2026-11-23T05:20:07.284Z"
+    "ratingCount": 573,
+    "fetchedAt": "2026-11-24T03:45:34.783Z"
   },
   "985690990": {
     "price": 354,
     "priceLabel": "₹354",
     "rating": 4.2,
     "ratingCount": 45,
-    "fetchedAt": "2026-11-23T05:20:07.473Z"
+    "fetchedAt": "2026-11-24T03:45:34.957Z"
   },
   "989057227": {
     "price": 228,
     "priceLabel": "₹228",
     "rating": 4,
-    "ratingCount": 1669,
-    "fetchedAt": "2026-11-23T05:20:07.714Z"
+    "ratingCount": 1671,
+    "fetchedAt": "2026-11-24T03:45:35.126Z"
   },
   "1009455923": {
     "price": 259,
     "priceLabel": "₹259",
     "rating": 4.1,
-    "ratingCount": 128,
-    "fetchedAt": "2026-11-23T05:20:07.891Z"
+    "ratingCount": 131,
+    "fetchedAt": "2026-11-24T03:45:35.291Z"
   },
   "1016220210": {
     "price": 278,
     "priceLabel": "₹278",
     "rating": 0,
     "ratingCount": 0,
-    "fetchedAt": "2026-11-23T05:20:08.099Z"
+    "fetchedAt": "2026-11-24T03:45:35.460Z"
   },
   "1026362757": {
     "price": 229,
     "priceLabel": "₹229",
     "rating": 3.9,
     "ratingCount": 58,
-    "fetchedAt": "2026-11-23T05:20:08.293Z"
+    "fetchedAt": "2026-11-24T03:45:35.629Z"
   },
   "1047999712": {
     "price": 307,
     "priceLabel": "₹307",
     "rating": 3.6,
     "ratingCount": 16,
-    "fetchedAt": "2026-11-23T05:20:08.473Z"
+    "fetchedAt": "2026-11-24T03:45:35.830Z"
   },
   "1048837080": {
     "price": 257,
     "priceLabel": "₹257",
     "rating": 4.1,
-    "ratingCount": 579,
-    "fetchedAt": "2026-11-23T05:20:08.697Z"
+    "ratingCount": 585,
+    "fetchedAt": "2026-11-24T03:45:36.005Z"
   },
   "1056291429": {
     "price": 298,
     "priceLabel": "₹298",
     "rating": 4.2,
     "ratingCount": 769,
-    "fetchedAt": "2026-11-23T05:20:08.894Z"
+    "fetchedAt": "2026-11-24T03:45:36.183Z"
   },
   "1060917211": {
     "price": 257,
     "priceLabel": "₹257",
     "rating": 3.8,
     "ratingCount": 22,
-    "fetchedAt": "2026-11-23T05:20:09.083Z"
+    "fetchedAt": "2026-11-24T03:45:36.356Z"
   },
   "1071239231": {
     "price": 339,
     "priceLabel": "₹339",
     "rating": 4,
     "ratingCount": 102,
-    "fetchedAt": "2026-11-23T05:20:09.321Z"
+    "fetchedAt": "2026-11-24T03:45:36.526Z"
   },
   "1076522502": {
     "price": 207,
     "priceLabel": "₹207",
     "rating": 4.1,
-    "ratingCount": 1178,
-    "fetchedAt": "2026-11-23T05:20:09.570Z"
+    "ratingCount": 1185,
+    "fetchedAt": "2026-11-24T03:45:36.700Z"
   },
   "1084128719": {
     "price": 297,
     "priceLabel": "₹297",
     "rating": 3.9,
     "ratingCount": 18,
-    "fetchedAt": "2026-11-23T05:20:09.800Z"
+    "fetchedAt": "2026-11-24T03:45:36.888Z"
   },
   "1092599960": {
     "price": 258,
     "priceLabel": "₹258",
     "rating": 3.8,
-    "ratingCount": 971,
-    "fetchedAt": "2026-11-23T05:20:09.980Z"
+    "ratingCount": 982,
+    "fetchedAt": "2026-11-24T03:45:37.083Z"
   },
   "1095976457": {
     "price": 365,
     "priceLabel": "₹365",
     "rating": 4.4,
     "ratingCount": 70,
-    "fetchedAt": "2026-11-23T05:20:10.174Z"
+    "fetchedAt": "2026-11-24T03:45:37.261Z"
   },
   "1098820283": {
     "price": 278,
     "priceLabel": "₹278",
     "rating": 3.6,
     "ratingCount": 59,
-    "fetchedAt": "2026-11-23T05:20:10.357Z"
+    "fetchedAt": "2026-11-24T03:45:37.482Z"
   },
   "1105951833": {
     "price": 629,
     "priceLabel": "₹629",
     "rating": 4.5,
     "ratingCount": 4,
-    "fetchedAt": "2026-11-23T05:20:10.569Z"
+    "fetchedAt": "2026-11-24T03:45:37.674Z"
   },
   "1112165981": {
     "price": 298,
     "priceLabel": "₹298",
     "rating": 4,
-    "ratingCount": 78,
-    "fetchedAt": "2026-11-23T05:20:10.787Z"
+    "ratingCount": 80,
+    "fetchedAt": "2026-11-24T03:45:37.852Z"
+  },
+  "1122901942": {
+    "price": 218,
+    "priceLabel": "₹218",
+    "rating": 4.3,
+    "ratingCount": 140,
+    "fetchedAt": "2026-11-24T03:45:38.027Z"
   },
   "1123108769": {
     "price": 289,
     "priceLabel": "₹289",
     "rating": 0,
     "ratingCount": 0,
-    "fetchedAt": "2026-11-23T05:20:10.977Z"
+    "fetchedAt": "2026-11-24T03:45:38.244Z"
   },
   "1153459762": {
     "price": 302,
     "priceLabel": "₹302",
     "rating": 4.2,
     "ratingCount": 10,
-    "fetchedAt": "2026-11-23T05:20:11.156Z"
+    "fetchedAt": "2026-11-24T03:45:38.421Z"
   }
 }

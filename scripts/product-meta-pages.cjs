@@ -452,6 +452,17 @@ const PRODUCTS = [
     blurb:
       "Black Lucknowi Chikankari rayon short kurti at ₹404 — embroidered floral work, notch neck, sizes S to XXXL. Buy direct on Meesho.",
   },
+  {
+    slug: "olive-green-floral-printed-cotton-short-kurti",
+    name: "Olive Green Floral Printed Cotton Short Kurti",
+    price: 218,
+    priceLabel: "₹218",
+    rating: 4.3,
+    ratingCount: 140,
+    image: "https://images.meesho.com/images/products/1122901942/zjt3r.jpg?width=1024",
+    blurb:
+      "Olive green floral printed cotton short kurti at ₹218 — mandala print, V-neck, full sleeves, sizes S to XXL. Buy direct on Meesho.",
+  },
 ];
 
 function esc(s) {

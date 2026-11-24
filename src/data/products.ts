@@ -1647,6 +1647,52 @@ export const initialProducts: Product[] = [
     stylingNote:
       "Style with jeans, leggings or a sharara and minimal jewellery for an effortless festive-day look.",
   },
+  // Product 40: Olive Green Floral Printed Cotton Short Kurti
+  {
+    id: "kurti-040",
+    slug: "olive-green-floral-printed-cotton-short-kurti",
+    meeshoProductId: "1122901942",
+    name: "Olive Green Floral Printed Cotton Short Kurti",
+    category: "Kurtis",
+    subCategory: "Ethnic Wear",
+    price: 218,
+    currency: "INR",
+    color: "Olive Green",
+    fabric: "Cotton",
+    fit: "Short Kurti",
+    length: "Above Knee",
+    neck: "V-neck",
+    pattern: "Printed",
+    patternType: "Floral / Mandala",
+    sleeve: "Long Sleeves",
+    occasion: "Daily",
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    badge: "NEW",
+    featured: true,
+    trending: true,
+    newArrival: true,
+    rating: 4.3,
+    ratingCount: 140,
+    meeshoAffiliateUrl:
+      "https://meesho.onelink.me/2yoV?af_dp=supply%3A%2F%2Fopen&af_force_deeplink=true&product_name=product&host_internal=single_product&af_reengagement_window=14d&af_click_lookback=7d&is_retargeting=true&pid=meesho_affiliate_portal&af_web_dp=https%3A%2F%2Fwww.meesho.com%2Fs%2Fp%2Fikjoom&external_product_id=ikjoom&product_id=1122901942&utm_source=instagram_autoDM_collection&c=138598695:instagram_autoDM_collection:10705912",
+    images: [
+      "https://images.meesho.com/images/products/1122901942/zjt3r.jpg?width=1024",
+      "https://images.meesho.com/images/products/1122901942/gti7b.jpg?width=1024",
+      "https://images.meesho.com/images/products/1122901942/g4bdj.jpg?width=1024",
+      "https://images.meesho.com/images/products/1122901942/iqgi4.jpg?width=1024",
+    ],
+    description:
+      "An olive green cotton short kurti with a white floral and mandala print, a notch V-neck and side slits. Full sleeves, a relaxed straight fit and breathable cotton make it an easy choice for daily wear, college or casual outings. Available in sizes S to XXL.",
+    highlights: [
+      "Soft, breathable cotton with a white floral and mandala print",
+      "Olive green short kurti with a notch V-neck and side slits",
+      "Full sleeves and a relaxed straight fit",
+      "Sizes S to XXL (bust 36–44 in, length 29 in)",
+      "4.3 stars from 140 Meesho ratings",
+    ],
+    stylingNote:
+      "Pair with high-waisted light-wash wide-leg jeans and oxidised silver jewellery for a modern ethnic look.",
+  },
 ];
 
 /* -------------------------------------------------------------------------- */
