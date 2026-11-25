@@ -461,7 +461,19 @@ const PRODUCTS = [
     ratingCount: 140,
     image: "https://images.meesho.com/images/products/1122901942/zjt3r.jpg?width=1024",
     blurb:
-      "Olive green floral printed cotton short kurti at ₹218 — mandala print, V-neck, full sleeves, sizes S to XXL. Buy direct on Meesho.",
+      "Olive green floral printed cotton short kurti at ₹218 - mandala print, V-neck, full sleeves, sizes S to XXL. Buy direct on Meesho.",
+  },
+  {
+    slug: "black-solid-lycra-long-sleeve-top",
+    name: "Black Solid Lycra Long-Sleeve Top",
+    price: 195,
+    priceLabel: "₹195",
+    rating: 3.9,
+    ratingCount: 775,
+    image:
+      "https://images.meesho.com/images/products/1054194589/7bizt.jpg?width=1024",
+    blurb:
+      "Black solid Lycra long-sleeve top at ₹195 - round neck, regular fit, sizes S to XL. Buy direct on Meesho.",
   },
 ];
 

@@ -1693,6 +1693,51 @@ export const initialProducts: Product[] = [
     stylingNote:
       "Pair with high-waisted light-wash wide-leg jeans and oxidised silver jewellery for a modern ethnic look.",
   },
+  {
+    id: "top-041",
+    slug: "black-solid-lycra-long-sleeve-top",
+    meeshoProductId: "1054194589",
+    name: "Black Solid Lycra Long-Sleeve Top",
+    category: "Tops",
+    subCategory: "Everyday Edit",
+    price: 195,
+    currency: "INR",
+    color: "Black",
+    fabric: "Lycra",
+    fit: "Regular",
+    length: "Regular",
+    neck: "Round Neck",
+    pattern: "Solid",
+    patternType: "Solid",
+    sleeve: "Long Sleeves",
+    occasion: "Casual",
+    sizes: ["S", "M", "L", "XL"],
+    badge: "NEW",
+    featured: true,
+    trending: true,
+    newArrival: true,
+    rating: 3.9,
+    ratingCount: 775,
+    meeshoAffiliateUrl:
+      "https://meesho.onelink.me/2yoV?af_dp=supply%3A%2F%2Fopen&af_force_deeplink=true&product_name=product&host_internal=single_product&af_reengagement_window=14d&af_click_lookback=7d&is_retargeting=true&pid=meesho_affiliate_portal&af_web_dp=https%3A%2F%2Fwww.meesho.com%2Fs%2Fp%2Fhfn1r1&external_product_id=hfn1r1&product_id=1054194589&utm_source=instagram_autoDM_collection&c=138598695:instagram_autoDM_collection:10795691",
+    images: [
+      "https://images.meesho.com/images/products/1054194589/7bizt.jpg?width=1024",
+      "https://images.meesho.com/images/products/1054194589/votoy.jpg?width=1024",
+      "https://images.meesho.com/images/products/1054194589/0p9ff.jpg?width=1024",
+      "https://images.meesho.com/images/products/1054194589/jpqu8.jpg?width=1024",
+    ],
+    description:
+      "A sleek black solid top in stretchy Lycra with long regular sleeves, a classic round neck and a relaxed regular fit. An easy casual wardrobe staple that pairs effortlessly with jeans, trousers or layered under a jacket. Available in sizes S to XL.",
+    highlights: [
+      "Soft, stretchy Lycra with a clean solid finish",
+      "Long regular sleeves and a classic round neck",
+      "Relaxed regular fit with a regular length",
+      "Sizes S to XL (bust 30-36 in, length 21-23 in)",
+      "3.9 stars from 775 Meesho ratings",
+    ],
+    stylingNote:
+      "Wear with high-waisted jeans and a leather jacket for an off-duty look, or layer under a blazer for a smarter casual outfit.",
+  },
 ];
 
 /* -------------------------------------------------------------------------- */

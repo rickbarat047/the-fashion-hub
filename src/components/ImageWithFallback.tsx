@@ -379,6 +379,14 @@ const LOCAL_MIRROR_MAP: Record<string, string> = {
     "/products/kurti-040/product-40-3.jpg",
   "https://images.meesho.com/images/products/1122901942/iqgi4.jpg?width=1024":
     "/products/kurti-040/product-40-4.jpg",
+  "https://images.meesho.com/images/products/1054194589/7bizt.jpg?width=1024":
+    "/products/top-041/product-41-main.jpg",
+  "https://images.meesho.com/images/products/1054194589/votoy.jpg?width=1024":
+    "/products/top-041/product-41-2.jpg",
+  "https://images.meesho.com/images/products/1054194589/0p9ff.jpg?width=1024":
+    "/products/top-041/product-41-3.jpg",
+  "https://images.meesho.com/images/products/1054194589/jpqu8.jpg?width=1024":
+    "/products/top-041/product-41-4.jpg",
 };
 
 /** Prefer the locally hosted, web-sized copy; fall back to the Meesho CDN. */
