@@ -72,6 +72,18 @@ export interface LivePrice {
 
 type PriceMap = Record<string, LivePrice>;
 
+/**
+ * Product 003 (Floral Printed Short Kurti) predates our affiliate collections
+ * and is only linked via a plain Meesho share link, so it has no feed to fetch.
+ * This is a manual snapshot from its public listing (checked 2026-11-25).
+ * Live affiliate feed prices below always take precedence over this entry.
+ * To make it truly live, add an affiliate collection link for product
+ * 1049948196 (slug hd417o) to COLLECTIONS above.
+ */
+const MANUAL_PRICES: PriceMap = {
+  "1049948196": { price: 226, priceLabel: "₹226" },
+};
+
 const CACHE_TTL_MS = 10 * 60 * 1000;
 let cached: { map: PriceMap; at: number } | null = null;
 let inFlight: Promise<PriceMap> | null = null;
@@ -158,6 +170,7 @@ export default async function handler(req: any, res: any) {
 
     const source = cached!;
     res.status(200).json({
+      ...MANUAL_PRICES,
       ...source.map,
       fetchedAt: new Date(source.at).toISOString(),
       source: "meesho-affiliate-api",
@@ -166,13 +179,14 @@ export default async function handler(req: any, res: any) {
     // Never surface a price error — the catalogue's snapshot prices remain.
     if (cached) {
       res.status(200).json({
+        ...MANUAL_PRICES,
         ...cached.map,
         fetchedAt: new Date(cached.at).toISOString(),
         source: "cache",
         stale: true,
       });
     } else {
-      res.status(200).json({ fetchedAt: null, source: "unavailable" });
+      res.status(200).json({ ...MANUAL_PRICES, fetchedAt: null, source: "unavailable" });
     }
   }
 }

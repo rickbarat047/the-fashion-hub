@@ -94,6 +94,15 @@ async function main() {
     prices = {};
   }
 
+  // Product 003 (1049948196 / hd417o) has no affiliate collection, so it is
+  // missing from the feed. Seed its manual price snapshot from the public
+  // Meesho listing (checked 2026-11-25) to keep the offline fallback complete.
+  prices["1049948196"] = {
+    price: 226,
+    priceLabel: "₹226",
+    fetchedAt: new Date().toISOString(),
+  };
+
   for (const [productId, [collectionId, type]] of Object.entries(MAP)) {
     try {
       const data = await fetchCollection(collectionId, type);
